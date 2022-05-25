@@ -9,7 +9,6 @@ Install node (v14 recommended)
 Install npm  
 Install Rust v1.56.1 or later from https://rustup.rs/  
 Install Solana v1.8.14 or later from https://docs.solana.com/cli/install-solana-cli-tools  
-If this is your first time using Rust, these Installation Notes might be helpful.  
 
 ## Configure CLI
 If you're on Windows, it is recommended to use WSL to run these commands
