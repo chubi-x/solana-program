@@ -38,3 +38,17 @@ Note: You may need to do some system tuning (and restart your computer) to get t
 ` solana program deploy dist/program/helloworld.so` 
 ## Run the JavaScript client
 `npm run start `
+
+##Expected output
+```
+> solana-smart-contract@0.0.1 start
+> ts-node src/client/main.ts
+
+Let's say hello to a Solana account...
+Connection to cluster established: http://localhost:8899 { 'feature-set': 1122441720, 'solana-core': '1.10.8' }
+Using account 7H11wsJQNyKymphQ1NzSpcvE2MPAZd2Q56w2NbKywCxx containing 499999999.18092644 SOL to pay for fees
+Using program CMAzYtb3iNuwDatfV5BXc5Y7MCVPn7aoV3UKQwL2hzP6
+Saying hello to HuAuKTuGWCdjmfiLAQZzQLW3AuJMYLcrmkBvwBRaGxAr
+HuAuKTuGWCdjmfiLAQZzQLW3AuJMYLcrmkBvwBRaGxAr is saying  256 times for my Father!!!!
+Success
+```
